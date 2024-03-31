@@ -25,7 +25,7 @@ const RecommendedJobs = () => {
                                 Job Categories
                             </h2>
                         </div>
-                        <div>
+                        <div className={"flex flex-col gap-2"}>
                             {CATEGORIES.map((category, index) => (
                                 <CardCategories image={category.image} title={category.title} openings={category.openings} key={index}/>
                             ))}

@@ -1,4 +1,4 @@
-import {FeaturedJobs, Hero, Navbar, RecommendedJobs, TopCompany, WhyCustomer} from "../components";
+import {FeaturedJobs, Footer, Hero, Navbar, RecommendedJobs, TopCompany, WhyCustomer} from "../components";
 
 const Home = () => {
     return (
@@ -9,6 +9,7 @@ const Home = () => {
             <TopCompany/>
             <FeaturedJobs/>
             <WhyCustomer/>
+            <Footer/>
         </div>
     );
 };

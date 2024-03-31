@@ -4,6 +4,7 @@ import RecommendedJobs from "./RecommendedJobs.tsx";
 import TopCompany from "./TopCompany.tsx";
 import FeaturedJobs from "./FeaturedJobs.tsx";
 import WhyCustomer from "./WhyCustomer.tsx";
+import Footer from "./Footer.tsx"
 
 export {
     Navbar,
@@ -11,5 +12,6 @@ export {
     RecommendedJobs,
     TopCompany,
     FeaturedJobs,
-    WhyCustomer
+    WhyCustomer,
+    Footer
 };
