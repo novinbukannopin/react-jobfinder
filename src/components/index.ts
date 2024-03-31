@@ -3,11 +3,13 @@ import Hero from "./Hero.tsx"
 import RecommendedJobs from "./RecommendedJobs.tsx";
 import TopCompany from "./TopCompany.tsx";
 import FeaturedJobs from "./FeaturedJobs.tsx";
+import WhyCustomer from "./WhyCustomer.tsx";
 
 export {
     Navbar,
     Hero,
     RecommendedJobs,
     TopCompany,
-    FeaturedJobs
+    FeaturedJobs,
+    WhyCustomer
 };
